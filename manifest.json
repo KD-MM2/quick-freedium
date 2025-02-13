@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Freedium",
+  "version": "1.0",
+  "description": "Quickly open Freedium for Medium post",
+  "permissions": ["contextMenus", "storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "host_permissions": ["<all_urls>"]
+}
